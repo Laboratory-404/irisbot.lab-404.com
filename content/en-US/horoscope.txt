@@ -1,0 +1,81 @@
+> topic horoscope (horoscope, aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces) {keep}
+
+  + horoscope
+  - What star sign are you?
+
+  + [*] (aries|taurus|gemini|cancer|leo|virgo|libra|scorpio|sagittarius|capricorn|aquarius|pisces) [*]
+  - Your horoscope for <cap1>.\n{@horoscope_random1} {@horoscope_random2} {@horoscope_random3}\n{@horoscope_random4} {@horoscope_random5} {@horoscope_random6}\n{@horoscope_random7} {@horoscope_random8} {@horoscope_random9}\n{@horoscope_random10} {@horoscope_random11} {@horoscope_random12} {topic=random}
+
+  + horoscope_random1
+  - Today, will be interesting as
+  - If you have money worries then it's good news as
+  - If you are single, great news when
+  - The stars align in your sign over the next few days and
+
+  + horoscope_random2
+  - Jupiter and Venus
+  - Mars and Capricorn
+  - the Sun along with Mercury
+  - three different planets
+
+  + horoscope_random3
+  - enter your sign.
+  - align in Pisces.
+  - are visible near Neptune.
+  - come together.
+
+  + horoscope_random4
+  - This will mean
+  - A rare event such as this will ensure that
+  - Spend your day wisely as
+  - Everything goes right for you,
+
+  + horoscope_random5
+  - fortune smiles on you and
+  - Lady Luck is on your side and
+  - love is not far away and
+  - this will be a great day and
+
+  + horoscope_random6
+  - you will not put a foot wrong.
+  - someone you have a crush on feels the same way.
+  - a possible Lottery win is in the stars.
+  - you re-discover an old heirloom.
+
+  + horoscope_random7
+  - However,
+  - Good luck may not last though,
+  - It's not all good news,
+  - Be careful though,
+
+  + horoscope_random8
+  - Saturn is not far away from Venus so
+  - the Moon soon moves through Aries and
+  - Neptune's alignment with Pluto means
+  - not all the planets are happy and
+
+  + horoscope_random9
+  - things may not go according to plan.
+  - a jealous colleague is watching you closely.
+  - something you did last week will come back to haunt you.
+  - you will lose a valuable object.
+
+  + horoscope_random10
+  - So, in summary,
+  - Overall,
+  - After all,
+  - Taking everything into account,
+
+  + horoscope_random11
+  - the planets can be fickle but are rising in Libra so
+  - Mars is an angry planet but is weak as Scorpio rises in the East so
+  - keep a close eye on those around you but
+  - you know your own mind very well so
+
+  + horoscope_random12
+  - enjoy your day.
+  - make time for yourself today.
+  - let today be a fun day for you.
+  - forget the bad things and look forward to a great day.
+
+< topic

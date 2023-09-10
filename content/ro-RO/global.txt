@@ -1,0 +1,9 @@
+! version = 2.0
+! local concat = newline
+! global topics = hello world
+
++ test global
+- Testing reserved global: topics=<env topics>; users=<env users>; client=<env client>; reserved=<env reserved>.
+
++ ping
+- pong

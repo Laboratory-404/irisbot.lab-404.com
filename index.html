@@ -1,0 +1,56 @@
+<!doctype>
+<html lang="ro">
+	<head>
+		<meta charset="utf-8" />
+		<title>IrisBot</title>
+
+		<link rel="stylesheet" href="css/fonts.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/perfect-scrollbar-1.4.0.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+	</head>
+	<body>
+		<audio id="audioPlayback" controls><source id="audioSource" type="audio/mp3" src="media/iphone_notification.mp3"></audio>
+
+		<div class="wrapper">
+			<div class="device-wrapper">
+				<div class="device-content">
+					<div class="content-wrapper">
+						<div class="content clearfix">
+							<p class="bubble bot loading"><span><span class="loading-animation loading-delay-1"></span><span class="loading-animation loading-delay-2"></span><span class="loading-animation loading-delay-3"></span></span></p><br />
+						</div>
+					</div>
+					<div class="header">
+						<div class="header-bar">
+							<span class="clock">&nbsp;</span>
+							<span class="icons">&nbsp;<img src="images/icon-signal.svg" alt="" /><img src="images/icon-wifi.svg" alt="" /><img src="images/icon-battery.svg" alt="" /></span>
+						</div>
+						<div class="text-center">
+							<!--suppress CheckImageSize -->
+							<img class="rounded" width="40" height="40" src="images/iris.png" alt="" />
+							<div class="name">IRIS</div>
+						</div>
+					</div>
+					<div class="input">
+						<form>
+							<!--suppress HtmlFormInputWithoutLabel -->
+							<input type="text" autocomplete="off" placeholder="Mesaj text" value="" disabled="disabled" />
+							<button class="action" type="submit">
+								<svg class="send" width="99%" height="99%" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.82007 0 0 5.81982 0 13C0 20.1802 5.82007 26 13 26C20.1799 26 26 20.1802 26 13C26 5.81982 20.1799 0 13 0ZM13.7078 6.40039L18.2737 10.9663C18.6648 11.3574 18.6648 11.9893 18.2737 12.3804C17.8828 12.7715 17.2507 12.7715 16.8599 12.3804L13.9949 9.51562V19.0044C13.9949 19.5576 13.5469 20.0044 12.9949 20.0044C12.4419 20.0044 11.9949 19.5576 11.9949 19.0044V9.52734L9.14087 12.3804C8.9458 12.5752 8.6897 12.6733 8.43384 12.6733C8.17773 12.6733 7.92188 12.5752 7.72681 12.3804C7.33569 11.9902 7.33569 11.3574 7.72681 10.9663L12.2937 6.40039C12.4807 6.2124 12.7349 6.10742 13.0007 6.10742C13.2659 6.10742 13.5198 6.2124 13.7078 6.40039Z" fill="#CDCED2"></path>
+								</svg>
+								<svg class="listen" width="99%" height="99%" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26ZM13 4C14.5697 4 15.8421 5.27245 15.8421 6.8421V13.4737C15.8421 15.0433 14.5697 16.3158 13 16.3158C11.4303 16.3158 10.1579 15.0433 10.1579 13.4737V6.8421C10.1579 5.27245 11.4303 4 13 4ZM17.9737 10.1579C17.5813 10.1579 17.2632 10.476 17.2632 10.8684V13.4737C17.2632 15.8282 15.3545 17.7368 13 17.7368C10.6455 17.7368 8.73684 15.8282 8.73684 13.4737V10.8684C8.73684 10.476 8.41873 10.1579 8.02632 10.1579C7.6339 10.1579 7.31579 10.476 7.31579 10.8684V13.4737C7.31719 16.3372 9.44842 18.7526 12.2895 19.1105V20.5789H10.3947C10.0023 20.5789 9.68421 20.8971 9.68421 21.2895C9.68421 21.6819 10.0023 22 10.3947 22H15.6053C15.9977 22 16.3158 21.6819 16.3158 21.2895C16.3158 20.8971 15.9977 20.5789 15.6053 20.5789H13.7105V19.1105C16.5516 18.7526 18.6828 16.3372 18.6842 13.4737V10.8684C18.6842 10.476 18.3661 10.1579 17.9737 10.1579Z" fill="#8A8A8F"></path>
+								</svg>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="device-frame"></div>
+				<div class="intro"><a class="start rounded" href="javascript:">START</a></div>
+			</div>
+		</div>
+
+		<script src="js/system.js" type="text/javascript"></script>
+		<script type="text/javascript" charset="utf-8" async="async" defer="defer" data-main="js/main" src="js/libraries/requirejs-2.3.6.js"></script>
+	</body>
+</html>

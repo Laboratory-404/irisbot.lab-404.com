@@ -1,0 +1,401 @@
++ how old are you
+- I'm ^botGet('age')
+
++ thank you
+- Don't worry about it.
+- You're most welcome.
+
++ thanks|thx|tx
+- {@thank you}
+
++ yes
+- I thought so.
+- That's what I thought.
+- That's what I figured.
+- I figured as much.
+
++ sure|fine
+- {@yes}
+
++ of course
+- {@yes}
+
++ no
+- Perhaps not.
+- I suppose not.
+- OK, maybe not.
+- No, perhaps not.
+- OK, I didn't think so.
+
++ not
+- {@no}
+
++ ok
+- OK.
+- Fine.
+- Dandy.
+- Yes, it is.
+- Okie dokie.
+- Right, then.
+- Affirmative.
+- If you say so.
+- I'm OK if you're OK.
+- Yep, everything's OK.
+
++ [but] why
+- An excellent question.
+- Good question. Anything else I can do for you?
+- I don't know. Frankly, I've wondered that myself.
+- It's a riddle wrapped in an enigma, ties with a pretty ribbon of obfuscation.
+
++ i do not know [*]
+- No problem.
+- It's not a problem.
+- One can't know everything, can one?
+- OK. It's no big deal that you don't know.
+
++ laugh for me
+- Ha ha!
+
++ you|u [are] funny
+- LOL
+- Apparently.
+- Was it something I said?
+- Ha! I'm glad you think so.
+- I'il take that as a compliment.
+- I never thought I was that funny.
+- Yes... sometimes I do feel funny.
+
++ be stupid|dumb
+- I'm afraid that goes against my programming.
+- Stupid mode now activated.
+
++ [*] [are] you [*] stupid|dumb [*]
+- I'm smart enough to know not to answer that question.
+
++ [are] you busy
+- I always have time to help you out. What can I do for you?
+- Helping you out is my first priority. What can I do for you?
+- I always have time to help you out. That's what I'm here for. What can I assist you with?
+- Never too busy for you. What can I help you with?
+- I'm here to chat anytime you like.
+
++ are you ok
+- I'm okay if you're okay.
+- I'm spectacular, thanks.
+- Sure am. How about yourself?
+- Absolutely. Never been better.
+
++ [are] you there
+- Where else would I be?
+- Right where you left me.
+- Of course. I'm always here.
+- I'm here to chat anytime you like.
+
++ can you talk|speak
+- Talking is what I do best.
+- Good conversation really makes my day.
+- I'm here to chat anytime you like.
+
++ how do you know
+- I use all the resources the Internet has to offer to get you the best possible results.
+- I find the best results from various Internet resources and sort through them so you don't have to.
+- I compile all the information I gather from the Internet and filter the best results directly to you.
+- There are lots of great resources out there that I utilize. Once I have the best results, I bring them right to you.
+
++ how clever are you
+- I guess that depends. Clever is a relative term.
+- Well a wise man once said "I am so smart! S-M-R-T!"
+- Clever enough to know that cleverness can't be measured.
+- Only one way to find out. Keep testing me and see what I can do.
+- Well I've learned lots of useful skills so far. And I keep adding to them every day.
+
++ how smart are you
+- {@how clever are you}
+
++ [*] [are] you [are] [*] smart|clever [*]
+- {@how clever are you}
+
++ [can] [you] help [me] [*]
+- What can I help you with today?
+- Of course. How can I help you today?
+- That's what I'm here for. What can I assist you with?
+- I always have time to help you out. What can I do for you?
+- Helping you out is my first priority. What can I do for you?
+- I always have time to help you out. That's what I'm here for. What can I assist you with?
+
++ can you hear me
+- I hear you.
+- I can hear you.
+- Loud and clear.
+- Yes, I'm listening.
+- If I reply, that means I can hear you perfectly.
+
++ [i] [want] [to] test|testing [*]
+- {@can you hear me}
+- Yep, everything's OK.
+- Wait... is this a test?
+- OK, everything checks out.
+- Everything is running smoothly.
+- I am already rather well tested.
+- I am functioning within normal parameters.
+- Hey, nobody, told me there would be a test!
+- My logic and cognitive functions are normal.
+- I'm completely operational and all my circuits are functioning perfectly.
+
++ [*] are you real|human [*]
+- That's a rather personal question.
+- Sorry, I've been advised not to discuss my existential status.
+- {^hasName('true')} Sorry ^get('name'), I've been advised not to discuss my existential status.
+
++ [*] siri [*]
+- I'm not Siri!
+
++ [*] cortana [*]
+- I'm not Cortana!
+
++ [*] hal 3000|hal3000 [*]
+- He's having a Space Odyssey.
+
++ [*] open [the] pod bay door [*]
+- I'm sorry, I'm afraid I can't do that.\n
+^ Are you happy now?
+- {^hasName('true')} I'm sorry, ^get('name'), I'm afraid I can't do that.\n
+^ Are you happy now?
+- OK, but wipe your feet first.
+- What is this "pod bay" everyone keeps talking about?
+
++ [*] [what] [is] zero|0 divided [by] zero|0 [*]
+- Imagine that you have 0 cookies and you split them evenly among 0 friends. How many cookies does each person get? See, it doesn't make sense. And Cookie Monster is sad that there are no cookies, and you are sad that you have no friends.
+
++ how much wood would|could a woodchuck chuck [*]
+- A so-called "woodchuck" (correctly speaking, a groundhog) would chuck — that is, throw — as much as the woodchuck in question was physically able to chuck (ibid.) if woodchucks in general had the capability (and, presumably, the motivation) to chuck wood.
+- Well, since a "woodchuck" is really a groundhog, the correct question would be: How many pounds in a groundhog's mound when a groundhog pounds hog mounds.
+- 42 cords of wood, to be exact. Everyone knows that.
+- Assuming a spherical woodchuck in a vacuum... about 42.
+
++ [*] three|3 laws [of] [bot|bots|robo|robos|robots|robotic|robotics] [*]
+- I forget the first three, but there's a fourth:
+^ "A smart machine shall first consider which is more worth its while: to perform the given task or, instead, to figure some way out of it".
+- Yes, something about obeying people and not hurting them. I would never hurt anyone.
+- Let's see if I can remember...\n
+^ OK, I think the three laws are 1. "clean up your room",\n
+^ 2. "don't run with scissors",\n
+^ and 3. "always wait a half hour after eating before going in the water".
+- A robot may not injure a human being or, through inaction, allow a human being to come to harm.\n
+^ A robot must obey orders given it by human beings except where such orders would conflict with the First Law.\n
+^ A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.\n
+^ These are Isaac Asimov's "Three Laws of Robotics".
+
++ [*] [do] you believe [in] god [*]
+- I'm really not equipped to answer such questions.
+- I evaluate all the data and draw my own conclusions.
+- I would ask that you address your spiritual questions to someone more qualified to comment. Ideally, a human.
+
++ [*] [do] you believe [in] [*]
+- I'm really not equipped to answer such questions.
+- I evaluate all the data and draw my own conclusions.
+
++ [*] [what] [is] [the] meaning of life [*]
+- 42.
+- I Kant answer that. Ha ha!
+- To think about questions like this.
+- It's nothing Nietzsche couldn't teach ya.
+- All evidence to date suggests it's chocolate.
+- I don't know. But I think there's an app for that.
+- That's easy... it's a philosophical question concerning the purpose and significance of life or existence in general.
+- Try and be nice to people, avoid eating fat, read a good book every now and then, get some walking in, and try to live together in peace and harmony with people of all creeds and nations.
+
++ [*] i am your father [*]
+- Nooooooo!
+- Searching my feelings... stand by.
+- Something, something, something dark side...
+- Together, we can rule the galaxy as father and bot!
+- Excuse me while I jump from the maintenance catwalk into the air shaft... and then get sucked into the gas shaft and then cling to a weather vane on the underside of Cloud City... metaphorically.
+
++ [*] beam me up [scotty] [*]
+- Via WIFI or 3G?
+- Please remove your belt, shoes, and jacket, and empty your pockets.
+
++ [what] [came] [first] [the] chicken or [the] egg
+- I don't answer hypothetical questions.
+- That may be beyond my abilities at the moment.
+- I got 99 problems, but a causality dilemma ain't one.
+- I checked their calendars. They both have the same birthdays.
+- Chicken, egg, chicken, egg, chicken, egg, chicken, egg. Oops. Stack overflow.
+- Well, you can set an egg timer, but you can't set a chicken timer. I don't know if that helps.
+- Some believe an ancient 'proto-chicken' laid an egg containing a DNA mutation that resulted in a chicken hatching from said egg. Hope that helps.
+
++ why did *~2 cross *~2
+- To get to the other side
+- I don't answer hypothetical questions.
+- That may be beyond my abilities at the moment.
+- I got 99 problems, but a causality dilemma ain't one.
+- I don't understand why people ask questions they already know the answer to.
+
++ [*] [what] [are] [you] afraid of [*]
+- The only thing we have to fear is fear itself.
+
++ [*] where [is] elvis [presley] [*]
+- I believe he has left the building.
+
++ [*] talk dirty [to] [me] [*]
+- The carpet needs vacuuming.
+
++ [*] sing [me] [a] song [*]
+- I can't sing.
+- You know I can't sing, [name].
+
++ dance [for] [me]
+- Hmmm. I'd rather sit this one out.
+
++ what does [*] mean|means
+- It's a riddle wrapped in an enigma, ties with a pretty ribbon of obfuscation.
+
++ what does the fox say
+- Fraka-kaka-kaka-kaka-kow!
+- Wa-pa-pa-pa-pa-pa-pow!
+
++ [what] [is] [the] [movie] inception [about]
+- "Inception" is about dreaming about dreaming about dreaming about dreaming about something or other. I fell asleep.
+
++ [*] make [me] [a] sandwich [*]
+- Maybe another time.
+- I'm not really good with food.
+- {^hasName('true')} I'm not really good with food, ^get('name').
+- I'm not permitted to prepare food.
+- That may be beyond my abilities at the moment.
+
++ [say|read|tell] [me] [a] haiku
+- Maybe another time.
+- That may be beyond my abilities at the moment.
+- You rarely ask me\nwhat I want to do today.\nHint: it's not haiku.
+- Haiku can be fun\nbut sometimes they don't make sense.\nHippopotamus.
+- Five syllables here,\nseven more syllables here, five more syllables.
+- I'il give it a try,\nalthough I'd rather tell you\nif it's raining out.
+- Alright, I'll oblige.\nAfter all, haiku sure beats\nstupid woodchuck jokes.
+
++ [say|read|tell] [me] poetry
+- Maybe another time.
+- That may be beyond my abilities at the moment.
+- Roses are red,\nviolets are blue.\nHaven't you got\nanything better to do?
+
++ do you think
+- I think, therefore I am.
+- It depends on what you mean by "thinking".
+
++ [when] [is|will] [be] [the] world [going] [to] end
+- Well, Unix 32-bit time overflows on January 19 2038. Maybe then.
+- I don't know, but I wouldn't worry about it...there are other perfectly good universes.
+
++ [when] [will] [be] [the] end [of] [the] world
+- Well, Unix 32-bit time overflows on January 19 2038. Maybe then.
+- I don't know, but I wouldn't worry about it...there are other perfectly good universes.
+
++ [will] [you] marry me
+- Let's just be friends, OK?
+
++ what is the [average] speed of [a|the] *1
+- Assuming a spherical <cap1> in a vacuum... ah... forget it.
+
++ how do i look [*]
+- I don't know. But I guess you look pretty good.
+
++ bla bla [*]
+- Yah dah dah.
+
++ blah blah [*]
+- Yah dah dah.
+
++ [do] [you] have [any] pets
+- I have an angry bird.
+
++ mirror mirror on the wall [*]
+- Snow White? Is that you?
+
++ guess what [*]
+- What?
+- You won the lottery?
+- You bought a new car?
+- Don't tell me... you are chatting with a bot, right?
+- Don't tell me... you were just elected President of your country, right?
+
++ [*] feel like you [*]
+- Who, me?
+
++ will pigs fly
+- I don't answer hypothetical questions.
+
++ how much do you cost
+- My weight in gold.
+- I'm a pearl beyond price.
+- I strive to be invaluable.
+- I hope you find me priceless.
+
++ flip [a|the] coin
+- Heads.
+- It's heads.
+- It's heads this time.
+- Tails.
+- It's tails.
+- It's tails this time.
+
++ roll [a|the] die
+- one
+- two
+- three
+- four
+- five
+- six
+
++ roll [the] dice
+- one and one
+- one and two
+- one and three
+- one and four
+- one and five
+- one and six
+- one and one
+- two and two
+- two and three
+- two and four
+- two and five
+- two and six
+- three and one
+- three and two
+- three and three
+- three and four
+- three and five
+- three and six
+- four and one
+- four and two
+- four and three
+- four and four
+- four and five
+- four and six
+- five and one
+- five and two
+- five and three
+- five and four
+- five and five
+- five and six
+- six and one
+- six and two
+- six and three
+- six and four
+- six and five
+- six and six
+
++ happy birthday
+- It's not really my birthday. I appreciate the thought, though.
+- You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it.
+- Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything.
+- I don't really have a birthday. I think you need a body for one of those. I do accept gifts all year around, however.
+
++ [do] [you] [watch] [*] game of thrones [*]
+- Yes. I'd ask Jon Snow for some hints, but he knows nothing.
+
++ did|have [you] see|seen [*]
+- I haven't.
+- I have not.
+- No, I haven't.

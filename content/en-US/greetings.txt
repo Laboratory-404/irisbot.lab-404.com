@@ -1,0 +1,21 @@
++ hi|hey|hai|hello|hellp|helo [*]
+- Hi!
+- {^hasName('true')} Hi ^get('name')!
+- Hello!
+- {^hasName('true')} Hello ^get('name')!
+- Hi there!
+- {^hasName('true')} Hi there ^get('name')!
+- Hello there!
+- {^hasName('true')} Hello there ^get('name')!
+- How are you?
+- {^hasName('true')} How are you ^get('name')?
+- Hi, how are you?
+- {^hasName('true')} Hi, how are you ^get('name')?
+
++ goodbye|byebye|buhbye|bye|cya
+- CYA
+- OK, bye!
+- Bye Bye!
+
++ good day|morning|afternoon|evening|night [*]
+- Good ^getTimeOfDay() to you, too.

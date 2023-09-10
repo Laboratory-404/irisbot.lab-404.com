@@ -1,0 +1,10 @@
+  + [*] weather [in] [*]
+  - Here's the weather today: ^weather()
+  - Here's the forecast for today: ^weather()
+  - OK. here's the weather for today: ^weather()
+
+  + [*] temp|temperature [in] [*]
+  - ^temp()
+
+  + [*] [how] [many] degrees [are] [in] [*]
+  - ^temp()

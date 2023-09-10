@@ -1,0 +1,19 @@
+! version = 2.0
+! local concat = newline
+
+> topic menu
+	+ (meniu|menu)
+	- Încearcă "meniu", "ajutor" sau "ieșire".
+
+	+ (ajutor|help){weight=100}
+	- Ai primit ajutor!
+
+	+ (iesi|iesire|iesirea|exit|quit){weight=100}
+	- {topic=random}pa!
+
+	+ *
+	- Nu înțeleg ce vrei să spui. Încearcă "meniu", "ajutor" sau "ieșire".
+< topic
+
++ (meniu|menu)
+- {topic=menu}Încearcă "meniu", "ajutor" sau "ieșire".

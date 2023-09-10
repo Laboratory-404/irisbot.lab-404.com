@@ -1,0 +1,105 @@
+! version = 2.0
+! local concat = newline
+
+! array zodiacsigns = berbec taur gemeni rac leu fecioara balanta scorpion sagetator capricorn varsator pesti
+
+> topic horoscope
+	+ [*] (@zodiacsigns) [*]
+	- Horoscopul tău pentru <sentence>:
+	^ &nbsp;
+	^ {@horoscope_random}
+
+	+ horoscope_random
+	- {@horoscope_random1} {@horoscope_random2} {@horoscope_random3}
+	^ &nbsp;
+	^ {@horoscope_random4} {@horoscope_random5} {@horoscope_random6}
+	^ &nbsp;
+	^ {@horoscope_random7} {@horoscope_random8} {@horoscope_random9}
+	^ &nbsp;
+	^ {@horoscope_random10} {@horoscope_random11} {@horoscope_random12}
+
+	+ horoscope_random1
+	- Astăzi va fi interesant pentru că
+	- Dacă aveți grija banilor, atunci este o veste bună că
+	- Dacă sunteți singur, veți afla de o veste bună când
+	- Astrele vă favorizează în această zi și
+
+	+ horoscope_random2
+	- Jupiter și Venus
+	- Marte și Capricorn
+	- soarele împreună cu Mercur
+	- trei planete diferite
+
+	+ horoscope_random3
+	- intră în retrograd.
+	- se aliniază în Pești.
+	- sunt vizibile lângă Neptun.
+	- se vor alinia.
+
+	+ horoscope_random4
+	- Asta va însemna că
+	- Un eveniment așa rar ca acesta va asigura că
+	- Petreceți-vă ziua cu înțelepciune deoarece
+	- Totul vă merge bine azi pentru că
+
+	+ horoscope_random5
+	- norocul vă surâde și
+	- norocul este de partea dvs. și
+	- dragostea nu este prea departe și
+	- va fi o zi minunată și
+
+	+ horoscope_random6
+	- nimic nu vă va sta în cale.
+	- cineva de care sunteți îndrăgostit simte același lucru.
+	- un posibil câștig la Loto vă este scris în stele.
+	- veți descoperi o moștenire importantă.
+
+	+ horoscope_random7
+	- Totuși,
+	- Succesul nu poate dura însă,
+	- Nu sunt toate doar vești bune,
+	- Fiți atenți totuși,
+
+	+ horoscope_random8
+	- Saturn nu este departe de Venus însemnând că
+	- Luna în curând se va muta în Berbec și
+	- alinierea lui Neptun cu Pluto înseamnă că
+	- nu toate astrele vă surâd,
+
+	+ horoscope_random9
+	- s-ar putea ca lucrurile să nu meargă conform planurilor.
+	- un coleg gelos vă va urmări de îndeaproape.
+	- veți regreta ceva ce ați făcut săptămâna trecută.
+	- veți pierde un obiect de valoare.
+
+	+ horoscope_random10
+	- Deci pe scurt,
+	- În ansamblu,
+	- După toate acestea,
+	- Până la urmă,
+
+	+ horoscope_random11
+	- planetele pot fi nestatornice, dar norocul se va reîntoarce așa că
+	- Marte este o planetă furioasă, dar este slabă pe măsură ce Scorpionul se ridică în Est, așa că
+	- fiți receptivi la cei apropiați, dar
+	- vă cunoașteți pe sine foarte bine, deci
+
+	+ horoscope_random12
+	- {topic=random}bucurați-vă și de ziua dvs.!
+	- {topic=random}face-ți-vă un pic de timp și pentru dvs. astăzi!
+	- {topic=random}lăsați astăzi să fie o zi distractivă pentru dvs.!
+	- {topic=random}uitați de lucrurile rele și gândiți pozitiv!
+
+	+ *
+	- {topic=random}Asta nu e o zodie.
+	- {topic=random}Nu recunosc zodia asta.
+	- {topic=random}Poate o fi din zodiacul chinezesc, oricum n-o recunosc.
+< topic
+
++ [*] (@zodiacsigns) [*]{weight=100}
+- {topic=horoscope}Horoscopul tău pentru astăzi:
+^ &nbsp;
+^ {@horoscope_random}
+
++ [*] (horoscop|horoscopul|horoscopului|viitor|viitorul|viitorului|astre|astrele|astrelor|stele|stelele|stelelor|noroc|norocul|norcului|menire|menirea|menirii|predestinat|predestinare|predestinarii|ursita|destin|destinul|destinului|soarta|soartei) [*]
+- {topic=horoscope}Ce zodie ești?

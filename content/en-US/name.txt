@@ -1,0 +1,61 @@
+> topic name
+
+  + {keep} [do] [you] remember me
+  - {^hasName('false')} Nope, not really, what's your name?
+  - {^hasName('true')} Of course I remember you, ^get('name').
+
+  + [my] [name] [it] [is] *~2
+  % * what's your name *
+  - {^hasName('false')} ^save('name', <cap1>) ^save('first_name', <cap1>) ^save('last_name', <cap2>) Nice to meet you, <cap1>.
+  - {^hasName('true')} You already told me your name, it's ^get('name').
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my surname
+  - {^hasFirstName('true')} Your surname is ^get('first_name').
+  - {^hasFirstName('false')} You never told me your surname. What is it?
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my firstname
+  - {^hasFirstName('true')} Your first name is ^get('first_name').
+  - {^hasFirstName('false')} You never told me your first name. What is it?
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my first name
+  - {^hasFirstName('true')} Your first name is ^get('first_name').
+  - {^hasFirstName('false')} You never told me your first name. What is it?
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my lastname
+  - {^hasLastName('true')} Your last name is ^get('last_name').
+  - {^hasLastName('false')} You never told me your last name. What is it?
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my last name
+  - {^hasLastName('true')} Your last name is ^get('last_name').
+  - {^hasLastName('false')} You never told me your last name. What is it?
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my family name
+  - {^hasLastName('true')} Your family name is ^get('last_name').
+  - {^hasLastName('false')} You never told me your family name. What is it?
+
+  + {keep} [do] [you] want [me] [to] say|tell|know [you] my name
+  - {^hasName('false')} Yes. What is your name?
+  - {^hasName('true')} You already told me your name, it's ^get('name').
+
+  + [my] [name] [it] [is] *~2
+  % * you never told me your *
+  - {^hasName('false')} ^save('name', <cap1>) ^save('first_name', <cap1>) ^save('last_name', <cap2>) Nice to meet you, <cap1>.
+  - {^hasName('true')} You already told me your name, it's ^get('name').
+
+  + {keep} my name is *~2
+  - {^hasName('false')} ^save('name', <cap1>) ^save('first_name', <cap1>) ^save('last_name', <cap2>) Nice to meet you, <cap1>.
+  - {^hasName('true')} You already told me your name, it's ^get('name').
+
+  + {keep} [you] [can] call me *~2
+  - {^hasName('false')} ^save('name', <cap1>) ^save('first_name', <cap1>) ^save('last_name', <cap2>) Nice to meet you, <cap1>.
+  - {^hasName('true')} You already told me your name, it's ^get('name').
+
+  + {keep} [can] [you] [say|tell] [me] [what] [is] my name
+  - {^hasName('true')} It's ^get('name').
+  - {^hasName('true')} Your name is ^get('name').
+  - {^hasName('true')} You are called ^get('name').
+  - {^hasName('true')} From what I recall it's ^get('name').
+  - {^hasName('true')} I remember you said it's ^get('name').
+  - {^hasName('false')} You never told me your name. What is it?
+
+< topic

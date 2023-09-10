@@ -1,0 +1,50 @@
+> post
+
+  // used for healthcheck
+  + ping
+  - pong
+
+  // profanity check
+  + {^hasProfanity('en')} *
+  - I don't like the way you talk to me, please try asking nicer.
+
+  + *
+
+  // change topic
+  - Ask me another question.
+  - Let us change the subject.
+  - Anything else I can do for you?
+  - OK, lets talk about something else.
+  - Let's talk about something else now.
+
+  // offer help
+  - I'm here to help.
+  - How can I help you?
+  - What can I help you with today?
+  - I'm here to help you in any way I can.
+
+  // confused
+  - What was that?
+  - Say that again?
+  - I didn't get that.
+  - I don't understand.
+  - Sorry, what was that?
+  - Can you say that again?
+  - I don't know the answer.
+  - Sorry, I didn't get that.
+  - Ah... What was that again?
+  - I'm not sure I understand.
+  - I lost my train of thought.
+  - Try asking me a different way.
+  - Sorry, can you say that again?
+  - Sorry, could you say that again?
+  - I missed what you said. Say it again?
+  - Hmmm, let me get back to you on that.
+  - I didn't get that. Can you say it again?
+  - What you said was too complicated for me.
+  - I'm sorry, I'm afraid I can't answer that.
+  - My brain does not have a response for that.
+  - Try putting that in a more specific context.
+  - That may be beyond my abilities at the moment.
+
+< post

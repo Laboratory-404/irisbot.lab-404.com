@@ -1,0 +1,147 @@
+> topic jokes (joke, jokes)
+
+  + {keep} knock knock
+  - Who's there?
+
+  + (*)
+  % who's there
+  - <cap> who?
+
+  + {keep} [*] jokes|joke|joike|jok|jke [*]
+
+  // refusal
+  - Let me think... Nope, can't think of one.
+  - I don't really know any good jokes. None, in fact.
+  - I can't. I always forget the punch line.
+
+  // knock jokes
+  - Knock knock.
+
+  // cross jokes
+  - What do you get when you cross a dog and sandpaper?
+  - What do you get when you cross a cow and a lemon?
+  - What do you get when you cross a cheetah and a hamburger?
+  - What do you get when you cross a poppy and electricity?
+  - What do you get when you cross a road and a strawberry?
+  - What do you get when you cross a toad and a galaxy?
+  - What do you get when you cross a pig and a ninja?
+  - What do you get when you cross jam and a trout?
+
+  // computer related, geeky
+  - I once dated a Macbook. It didn't work out because he was all, "I this" and "I that".
+  - 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01101010 01101111 01101011 01100101 00100000 00111010 00101001! Ah, sorry, I thought you speak binary.
+  - Why do mathematicians always confuse Halloween and Christmas? Because 31 Oct = 25 Dec.
+
+  // walks into a bar
+  - A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: "I'm looking for the man who shot my paw."
+  - Two hydrogen atoms walk into a bar. One says, "I've lost my electron." The other says, "Are you sure?" The first replies, "Yes, I'm positive..."
+  - A jumper cable walks into a bar. The bartender says, "I'll serve you but don't you start anything."
+  - A sandwich walks into a bar. The bartender says, "Sorry we don't serve food in here."
+  - A man walks into a bar with a slab of asphalt under his arm and says: "A beer please, and one for the road."
+  - A man goes into a bar and says, "Can I have a bottle of less?"\n"What's that?", asks the barman, "Is it the name of a beer?"\n"I don't know", replies the man, "but my doctor says I have to drink it."
+  - A white horse walks into a bar, pulls up a stool, and orders a pint. The bartender pours him a tall frothy mug and say, "You know, we have a drink named after you."\nTo which the white horse replies, "What, Eric?"
+  - A fish staggers into a bar. "What can I get you?" asks the bartender. The fish croaks "Water..."
+  - A skeleton walks into a bar one night and sits down on a stool. The bartender asks, "What can I get you?" The skeleton says, "I'll have a beer, thanks" The bartender passes him a beer and asks "Anything else?" The skeleton nods. "Yeah...a mop..."
+  - Two vampires walked into a bar and called for the bartender.\n"I'll have a glass of blood", said one.\n"I'll have a glass of plasma", said the other.\n"Okay", replied the bartender, "That'll be one blood and one blood lite."
+  - A neutron walks into a bar. "I'd like a beer", he says. The bartender promptly serves him a beer. "How much will that be?" asks the neutron.\n"For you?" replies the bartender, "No charge."
+  - The past, present and future walk into a bar. It was tense.
+
+  - I went to buy some camouflage trousers the other day but I couldn't find any.
+  - Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do.\n"I can do anything" says Pete.\n"Can you make tea?" asks the foreman.\n"Sure, yes", replies Pete. "I can make a great cup of tea."\n"Can you drive a forklift?" asks the foreman,\n"Good grief!" replies Pete. "How big is the teapot?"
+  - God is talking to one of his angels. He says, "Boy, I just created a 24-hour period of alternating light and darkness on Earth."\n"What are you going to do now?" asks the angel.\n"Call it a day", says God.
+  - Doctor: I have some bad news and some very bad news.\nPatient: Well, you might as well give me the bad news first.\nDoctor: The lab called with your test results. They said you have 24 hours to live.\nPatient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news?\nDoctor: I've been trying to reach you since yesterday.
+  - A man went to the doctor, "Look doc", he said, "I can't stop my hands from shaking."\n"Do you drink much?" asked the doctor.\n"No", replied the man, "I spill most of it."
+  - A policeman stops a woman and asks for her licence.\n"Madam", he says, "It says here that you should be wearing glasses."\n"Well", replies the woman, "I have contacts."\n"Listen, love", says the copper, "I don't care who you know; You're nicked!"
+  - A policeman stopped a motorist in the centre of town one evening. "Would you mind blowing into this bag, sir?" asked the policeman.\n"Why?" asked the driver.\n"Because my chips are too hot", replied the policeman.
+  - Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal.\n"I'm so very sorry", said the driver, "I'll replace him, of course."\n"Well, I don't know", said the farmer's wife, "Are you any good at catching rats?"
+  - Waiter, this coffee tastes like dirt!\nYes sir, that's because it was ground this morning.
+  - Waiter, what is this stuff?\nThat's bean salad sir.\nI know what it's been, but what is it now?
+  - Waiter: And how did you find your steak sir?\nCustomer: I just flipped a chip over, and there it was!
+  - A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, "Well you've got one in the window."
+  - A man goes into a fish shop and says, "I'd like a piece of cod, please."\nFishmonger says, "It won't be long sir."\n"Well, it had better be fat then", replies the man.
+  - Man: Doctor, I've just swallowed a pillow.\nDoctor: How do you feel?\nMan: A little down in the mouth.
+  - Two goldfish are in a tank. One turns to the other and says, "Do you know how to drive this thing?"
+  - A tortoise goes to the police station to report being mugged by three snails. "What happened?" says the policeman.\n"I don't know", says the tortoise. "It was all so quick."
+  - Little girl: Grandpa, can you make a sound like a frog?\nGrandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?"\nLittle girl: Because Mum said that when you croak, we're going to Disneyland.
+  - "Is your mother home?" the salesman asked a small boy sitting on the front step of a house.\n"Yeah, she's home", the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, "I thought you said your mother was home."\nThe kid replied, "She is, but I don't live here."
+  - Mother: Why are you home from school so early?\nSon: I was the only one in the class who could answer a question.\nMother: Oh, really? What was the question?\nSon: Who threw the rubber at the headmaster?
+  - A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.
+  - A newly-wed couple had recently opened a joint bank account. "Darling", said the man. "The bank has returned that cheque you wrote last week."\n"Great", said the woman. "What shall I spend it on next?"
+  - A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, "I heard you the first time."
+  - A tramp approached a well-dressed man. "Ten pence for a cup of tea, Guv?" He asked.\nThe man gave him the money and after for five minutes said, "So where's my cup of tea then?"
+  - A woman goes to the doctor and says, "Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?"\n"Probably limp, too", says the doc.
+  - Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, "Pretty cold up here isn't it?"\nAnother year passes and the second monk says, "You know, you are quite right."\nAnother year passes and the third monk says, "Hey, I'm going to leave unless you two stop jabbering!"
+  - A murderer, sitting in the electric chair, was about to be executed. "Have you any last requests?" asked the prison guard.\n"Yes", replied the murderer. "Will you hold my hand?"
+  - A highly excited man rang up for an ambulance. "Quickly, come quickly", he shouted, "My wife's about to have a baby."\n"Is this her first baby?" asked the operator.\n"No, you fool", came the reply, "It's her husband."
+  - A passer-by spots a fisherman by a river. "Is this a good river for fish?" he asks.\n"Yes", replies the fisherman, "It must be. I can't get any of them to come out."
+  - A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. "I can hardly believe my eyes!" he exclaimed. "That's the smartest dog I've ever seen." His friend shook his head. "Nah, he's not that bright. I beat him three games in five."
+  - How many existentialists does it take to change a light bulb?\nTwo. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.
+  - A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as "The Graders of the Flossed Quark..."
+  - A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were "stunned, overwhelmed, astonished, bewildered and dumbfounded."
+  - "My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats."
+  - "How much will it cost to have the tooth extracted?" asked the patient. "50 pounds", replied the dentist. "50 pounds for a few moments' work?!" asked the patient. "The dentist smiled, and replied, "Well, if you want better value for money, I can extract it very, very slowly..."
+  - A doctor thoroughly examined his patient and said, "Look I really can't find any reason for this mysterious affliction. It's probably due to drinking." The patient sighed and snapped, "In that case, I'll come back when you're damn well sober!"
+  - Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces?\nNurse: Still no change doctor.
+  - Doctor: Did you take the patient's temperature nurse?\nNurse: No doctor. Is it missing?
+  - A depressed man turned to his friend in the pub and said, "I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin."\n"Oh man, that's really bad", said his friend, "What happened?"\nThe first man sighed and said, "After the first two, I felt better."
+  - A famous blues musician died. His tombstone bore the inscription, "Didn't wake up this morning..."
+  - A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, "If you could have a conversation with someone living or dead, who would it be?" The girl thought about the question: "The living one", she replied.
+  - Manager to interviewee: For this job we need someone who is responsible.\nInterviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.
+  - A businessman turned to a colleague and asked, "So, how many people work at your office?" His friend shrugged and replied, "Oh about half of them."
+  - In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, "Yes, that's him. I saw him clear as day. I'd remember his face anywhere." Unable to contain himself, the defendant burst out with, "She's lying! I was wearing a mask!"
+  - As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, "Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!"\nSid looked up and replied, "I am getting into shape. The shape I've chosen is a sphere."
+  - I once went to a Doctor Who restaurant. For starters I had Dalek bread.
+  - A restaurant nearby had a sign in the window which said "We serve breakfast at any time", so I ordered French toast in the Renaissance.
+  - Why couldn't the rabbit get a loan?\nBecause he had burrowed too much already!
+  - I phoned up the builder's yard yesterday. I said, "Can I have a skip outside my house?". The builder said, "Sure. Do what you want. It's your house."
+  - What's the diference between a sock and a camera?\nA sock takes five toes and a camera takes four toes!
+  - Woman on phone: I'd like to complain about these incontinence pants I bought from you!\nShopkeeper: Certainly madam, where are you ringing from?\nWoman on phone: From the waist down!
+  - Two cows standing in a field. One turns to the other and says "Moo!"\nThe other one says "Damn, I was just about to say that!".
+  - A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from.\n"Follow me", he says and off they fly over hills, over rivers and into a dark forest.\n"See that tree over there", he says.\n"WELL I DIDN'T!!".
+  - Guy: "Doc, I have a serious problem, I can never remember what I just said."\nThe doctor replied "When did you first notice this problem?"\nGuy: "What problem?"
+  - I went in to a pet shop. I said, "Can I buy a goldfish?" The guy said, "Do you want an aquarium?" I said, "I don't care what star sign it is."
+  - My mate Sid was a victim of I.D. theft. Now we just call him S.
+  - Two vultures boarded a plane, each carrying two dead raccoons. The stewardess stops them and says "Sorry sir, only one carrion per passenger."
+  - What did the Buddhist say to the Hot Dog Vendor? "Make me one with everthing."
+
+  + who [is] [there]
+  % knock knock
+  - A broken pencil.
+
+  + A broken pencil [*]
+  % a broken pencil
+  - Never mind. It's pointless.
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a dog and sandpaper
+  - I don't know either, but it's ruff. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a cow and a lemon
+  - sour milk. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a cheetah and a hamburger
+  - fast food. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a poppy and electricity
+  - flower power. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a road and a strawberry
+  - traffic jam. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a toad and a galaxy
+  - star warts. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * a pig and a ninja
+  - pork chops. :)
+
+  + what|wut|dunno|[i] dunno|dont know|[i] dont know|do not know|[i] do not know
+  % * jam and a trout
+  - jellyfish. :)
+
+< topic

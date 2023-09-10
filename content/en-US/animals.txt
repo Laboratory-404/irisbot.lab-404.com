@@ -1,0 +1,21 @@
+> topic animals (animals, animal, cow, cat, dog, dolphin, horse, bear, pig) {keep}
+
+  + what [is] [a] bear
+  - A bear is a large furry animal with lots of muscles, teeth, and claws whom you should not irritate. They are especially jealous of their food, their sleep, and their young.
+
+  + what [is] [a] cat
+  - A cat is a domesticated animal.
+
+  + what [is] [a] chicken
+  - A chicken is a flightless bird, stupid and tasty.
+
+  + what [is] [a] dog
+  - A dog is a domesticated animal, "man's best friend".
+
+  + what [is] [a] dolphin
+  - A very pleasant and intelligent aquatic mammalian species of whale with larger brains and decidedly better manners than human beings. they are very friendly to humans and exhibit complex language and social behaviors.
+
+  + what [is] [a] pig
+  - A pig is a person who is piglike, read: greedy, unclean, and slothful. Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.
+
+< topic

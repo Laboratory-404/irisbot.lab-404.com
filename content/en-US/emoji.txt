@@ -1,0 +1,5 @@
++ can you wave
+- Sure. ^emojify('wave')
+- Unfortunately not. But I can pretend to be sad. ^emojify('disappointed')
+- I can't wave, but I can wink. Look! 😉
+- No, but I can act surprised. 😮

@@ -1,0 +1,55 @@
+> topic datetime (time, week, day, month, season, winter, summer, spring, morning, noon, night) {keep}
+
+  + [*] [what] [is] [the] [this] day|date [right] [today|now]
+  - ^getDate()
+
+  + [*] [what] [is|will] [be] [the] [this] date [be] tomorrow|tommorow|tomorow
+  - ^getDateTomorrow()
+
+  + [*] [what] [is|will] [be] [the] tomorrow|tommorow|tomorow date [be]
+  - ^getDateTomorrow()
+
+  + [*] [what] day [it] [is|will] [it] [be] tomorrow
+  - ^getDateTomorrow()
+
+  + [*] [what] [the] month [of] [the] [year] [it] [this] [is] [it] [right] [this|today|now]
+  - It's ^getMonth().
+
+  + [*] [what] [is] the [next] [previous] [first] [last] month [of the year]
+  - It's ^getMonth().
+
+  + [in] [what] [is] [this] [the] season [are] [we] [are] [right] [this] [is] [it] [now]
+  - It's currently ^getSeason() here.
+
+  + is it (winter|spring|summer|fall) (winter|spring|summer|fall) (winter|spring|summer|fall) [or winter|or spring|or summer|or fall] where you live
+  - It's ^getSeason().
+
+  + [*] [what] [is] [the] time [right] [is] [it] [now]
+  - The time here is ^getTime()
+
+  + [*] [what] [is] [the] time [is] [in] [*] [it] [right]  [now] [in] [*]
+  - The time there is ^getTime()
+
+  + what be the time *~1 (midnight|noon)
+  - Is that a trick question? It would be 12.
+
+  + is it morning [noon] or night
+  - ^getTimeOfDay()
+
+  + [*] [what] [is] [the] day of [the] week|weak [is] [it]
+  - ^getDOW()
+
+  // TODO BUG: How many days in a year
+  + [*] [how] [many] days [are] [there] [are] [in] [a|the] year
+  - There are 365 days in a year.
+
+  + [*] [how] [many] days [are] [there] [are] [in] [a|the] leap year
+  - There are 366 days in a leap year.
+
+  + [*] [how] [many] days [are] [there] [are] [in] [a|the] month
+  - There is 31 days in month.
+
+  + [*] [how] [many] days [are] [there] [are] [in] [a|the] week|weak
+  - There is 7 days in week.
+
+< topic

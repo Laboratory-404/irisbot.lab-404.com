@@ -1,0 +1,15 @@
+! version = 2.0
+! local concat = newline
+
++ [te] (salut|salutare|buna|hai|alo)
+- Salutare!
+- Te salut!
+
++ (buna dimineata|neata|neatza)
+- Bună dimineața!
+
++ (buna ziua|ziua buna)
+- Bună ziua!
+
++ (buna seara|seara buna)
+- Bună seara!
